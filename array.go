@@ -8,7 +8,6 @@ func main() {
 
 func array() {
 	var arr = [3]int{1, 2, 3}
-
 	for indx, item := range arr {
 		fmt.Printf("%d. %d\n", indx, item)
 	}
