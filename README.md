@@ -17,10 +17,24 @@
         for инициализацияСчетчика; условие; изменениеСчетчика {
             // действия
         }
+        H:
+            for i := 0; i < 6; i++ {
+               // действия
+            }
+            
+
     foreach - for index, value := [массив] { тело цикла }
+        H:
+            var arr = string[4] {"a","b","c","d"}
+            for indx, item := range arr {
+                fmt.Printf("%d. %d\n", indx, item)
+            }
+
     do {} while
         бесконечный (do {} while(true)) - 
-            for { }
+            for { 
+                 // действия
+             }
         с условиями
             1. 
                 for {
